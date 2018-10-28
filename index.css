@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+body {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./back2.jpg');
+    
+}
 a {
     text-decoration: none;
 }
@@ -52,15 +61,7 @@ main div:nth-child(3){
 main {
     display: inline-block;
     padding: 15px 20px;
-    background: rebeccapurple;
-}
-body {
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-color: rgba(255,255,255,.2);
 }
     
 
